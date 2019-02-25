@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   sentence1.each do |sentence|
     sentence2 << sentence.reverse
   end
-  sentence2.split
+  sentence2.join
 end
