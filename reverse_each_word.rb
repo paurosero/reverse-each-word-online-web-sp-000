@@ -1,7 +1,8 @@
 def reverse_each_word(sentence)
   sentence1 = sentence.split
-  sentence2 = sentence1
+  sentence2 = []
   sentence1.each do |sentence|
+    sentence1.reverse
   end
-
+  sentence2
 end
